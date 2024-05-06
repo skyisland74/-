@@ -4,7 +4,7 @@ from nextcord.ext import commands
 import os
 
 
-access_token - os.environ["bot_token"]
+access_token - os.environ["BOT_token"]
 TOKEN = 'access_token'
 
 
