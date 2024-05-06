@@ -1,9 +1,14 @@
 import random
 import nextcord
 from nextcord.ext import commands
+import os
 
-# 디스코드 봇 토큰
-TOKEN = 'MTIzNjg3MzY3NTAzNTM3NzY5NA.GtzUYH.fJT5qR7RA42rTDsBH3HRuJW7w7ewr4sUY3TE14'
+
+access_token - os.environ["bot_token"]
+TOKEN = 'access_token'
+
+
+
 # 역할의 ID
 FIRST_GRADE_ROLE_ID = 1234942571172855890  # 1등급 역할의 ID로 실제 ID를 넣어주세요
 SECOND_GRADE_ROLE_ID = 1234942599811432539  # 2등급 역할의 ID로 실제 ID를 넣어주세요
